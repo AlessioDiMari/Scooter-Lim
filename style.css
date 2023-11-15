@@ -1,0 +1,73 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+.container{
+  width: 800px;
+  margin: auto;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+}
+header, main{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Titolo e logo */
+
+header{
+  text-align:center;
+  margin: 0;
+  color: #32CD32;
+}
+.titolo{
+  margin: 0;
+}
+header img{
+  width: 25%;
+}
+
+/* Barra di navigazione */
+
+nav{
+  text-align: center;
+  background: #32CD32;
+  padding: 10px;
+}
+
+/* Lista dei dispositivi disponibili */
+
+main{
+  color: white;
+}
+.monopattino{
+margin-top: 25px;
+}
+.nome-monopattino{
+  font-size: 20px;
+  font-weight: bold;
+}
+.distanza, .carica{
+  font-size: 15px
+}
+
+/* Barre delle percentuali */
+
+hr.percentuale1 {
+  width: 35%;
+  border: 10px solid orange;
+  border-radius: 5px;
+  margin: 0;
+}
+hr.percentuale2{
+  width: 60%;
+  border: 10px solid green;
+  border-radius: 5px;
+  margin: 0;
+}
+hr.percentuale3{
+  width: 15%;
+  border: 10px solid red;
+  border-radius: 5px;
+  margin: 0;
+}
